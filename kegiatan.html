@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+    <link rel="icon" href="assets/images/logo.png" type="image/png" style="height: auto; width: 100%;" />
+    <link rel="stylesheet" href="style-kegiatan.css">
+    <title>Kegiatan Desa</title>
+</head>
+<body>
+    <header class="transparent-header">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" alt="Logo" width="40" height="50" class="d-inline-block">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tentang.html" style="color: white;">Tentang</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            Penduduk
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="usia.html">Usia</a></li>
+                            <li><a class="dropdown-item" href="gender.html">Jenis Kelamin</a></li>
+                            <li><a class="dropdown-item" href="pendidikan.html">Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="agama.html">Agama</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="kegiatan.html" style="color: white;">Kegiatan</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-light">Masuk</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+      
+    <div class="container">
+        <p class="judul">Dokumentasi Kegiatan</p>
+    
+        <div class="row">    
+            <div class="input-group">
+                <input type="text" class="form-control input-text" placeholder="Search kegiatan" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-warning btn-lg" type="button"><i class="fa fa-search"></i></button>
+                </div>
+            </div>        
+        </div>
+    
+        <div class="kegiatan-container">
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/berita-umkm.jpg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>11 Januari 2024</p>
+                    <h6>Pelatihan umkm untuk warga desa tentang digital bisnis</h6>
+                </div>
+            </div>
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/pengajian.jpg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>30 Januari 2024</p>
+                    <h6>Pengajian Sholawat NariyahPKK Desa Sumberkolak</h6>
+                </div>
+            </div>
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/berita-seni.jpg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>25 Februari 2024</p>
+                    <h6>Festival seni dan budaya desa dalam rangka melestarikan budaya</h6>
+                </div>
+            </div>
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/berita-jalan.jpg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>28 April 2024</p>
+                    <h6>Gotong royong perbaikan jalan desa bersama warga sekitar</h6>
+                </div>
+            </div>
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/kegiatan-penanaman.jpeg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>14 Mei 2024</p>
+                    <h6>Program penanaman seribu pohon sukses bersama dinas lingkungan</h6>
+                </div>
+            </div>
+            <div class="kegiatan-item">
+                <div class="kegiatan-item-image">
+                    <img src="assets/images/senam.jpeg" alt="">
+                </div>
+                <div class="kegiatan-item-content">
+                    <p>17 Agustus 2024</p>
+                    <h6>Senam sehat bersama warga desa dalam rangka kegiatan 17 agustus</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+          <img src="./assets/images/logo.png" alt="Logo" class="footer-logo">
+          
+          <div class="footer-desa">
+            <p class="footer-text1">Desa Sumberkolak</p>
+            <p class="footer-text2">Website Sistem Informsi Desa Sumberkolak, Situbondo</p>
+          </div>
+    
+          <div class="footer-contact">
+            <p class="footer-contact1">Kontak</p>
+            <div class="inline">
+              <p class="inline-item">(0123) 456789</p>
+            </div>
+            <div class="inline">
+              <p class="inline-item">sumberkolak@gmail.com</p>
+            </div>
+            <div class="inline">
+              <p class="inline-item">Krajan Barat, Sumber Kolak, Kec. Panarukan, Kabupaten Situbondo, Jawa Timur 68351, Indonesia</p>
+            </div>
+          </div>
+          
+        </div>
+    </footer>
+    
+</body>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
+

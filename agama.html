@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+    <link rel="icon" href="assets/images/logo.png" type="image/png" style="height: auto; width: 100%;" />
+    <link rel="stylesheet" href="style-agama.css">
+    <title>Agama Penduduk</title>
+</head>
+<body>
+    <header class="transparent-header">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/logo.png" alt="Logo" width="40" height="50" class="d-inline-block">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tentang.html" style="color: white;">Tentang</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            Penduduk
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="usia.html">Usia</a></li>
+                            <li><a class="dropdown-item" href="gender.html">Jenis Kelamin</a></li>
+                            <li><a class="dropdown-item" href="pendidikan.html">Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="agama.html">Agama</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="kegiatan.html" style="color: white;">Kegiatan</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-light">Masuk</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+      
+    <div class="container">
+        <p class="judul">Penduduk <br> Berdasarkan Agama</p>
+    
+        <div class="card">
+            <div class="pie-chart-wrapper">
+              <div class="keterangan">
+                <div class="keterangan-item">
+                    <span class="color color-1"></span>
+                    <span class="text">ISLAM</span>
+                </div>
+                <div class="keterangan-item">
+                    <span class="color color-2"></span>
+                    <span class="text">PROTESTAN</span>
+                </div>
+                <div class="keterangan-item">
+                    <span class="color color-3"></span>
+                    <span class="text">KATOLIK</span>
+                </div>
+                <div class="keterangan-item">
+                    <span class="color color-4"></span>
+                    <span class="text">KONG HU CU</span>
+                </div>
+                <div class="keterangan-item">
+                  <span class="color color-5"></span>
+                  <span class="text">HINDU</span>
+                </div>
+                <div class="keterangan-item">
+                  <span class="color color-6"></span>
+                  <span class="text">BUDHA</span>
+                </div>
+              </div>
+    
+              <div class="pie-chart-container">
+                  <div class="pie-chart">
+                      <div class="slice slice-1"></div>
+                      <div class="slice slice-2"></div>
+                      <div class="slice slice-3"></div>
+                      <div class="slice slice-4"></div>
+                      <div class="slice slice-5"></div>
+                      <div class="slice slice-6"></div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="text-update">
+                <span class="text-item">Total Data :<strong> 3</strong></span>
+                <span class="text-item">Update Terakhir :<strong> 1 bulan yang lalu</strong></span>
+            </div>
+    
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">NO</th>
+                            <th scope="col">AGMA</th>
+                            <th scope="col">JUMLAH (JIWA)</th>
+                            <th scope="col">PERSENTASE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Islam</td>
+                            <td>11.428</td>
+                            <td>69.21%</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Protestan</td>
+                            <td>1.458</td>
+                            <td>8.91%</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Katolik</td>
+                            <td>1.234</td>
+                            <td>7.57%</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Konghucu</td>
+                            <td>507</td>
+                            <td>3.12%</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Hindu</td>
+                            <td>601</td>
+                            <td>3.69%</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Budha</td>
+                            <td>678</td>
+                            <td>4.15%</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Total (Jiwa)</th>
+                            <td colspan="1">15.906</td>
+                            <td colspan="1">100%</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+    <footer class="footer">
+        <div class="footer-container">
+          <img src="./assets/images/logo.png" alt="Logo" class="footer-logo">
+          
+          <div class="footer-desa">
+            <p class="footer-text1">Desa Sumberkolak</p>
+            <p class="footer-text2">Website Sistem Informsi Desa Sumberkolak, Situbondo</p>
+          </div>
+    
+          <div class="footer-contact">
+            <p class="footer-contact1">Kontak</p>
+            <div class="inline">
+              <p class="inline-item">(0123) 456789</p>
+            </div>
+            <div class="inline">
+              <p class="inline-item">sumberkolak@gmail.com</p>
+            </div>
+            <div class="inline">
+              <p class="inline-item">Krajan Barat, Sumber Kolak, Kec. Panarukan, Kabupaten Situbondo, Jawa Timur 68351, Indonesia</p>
+            </div>
+          </div>
+          
+        </div>
+    </footer>
+    
+</body>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
+

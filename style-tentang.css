@@ -1,0 +1,379 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #2CB1E9;
+    padding: 5px 20px;
+    
+}
+
+.navbar-nav li {
+    font-weight: 500; 
+}
+
+.navbar .btn {
+    color: black; 
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: white; 
+}
+
+.navbar .btn:hover {
+    background-color: #2CB1E9;
+}
+
+.image-container-tentang {
+    position: relative;
+    display: inline-block; 
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.image-container-tentang .img-fluid-tentang {
+    width: 100%; 
+    height: 400px;
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 20px;
+}
+
+.text-bg-tentang {
+    position: absolute;
+    width: 100%; 
+    text-align: center; 
+    color: white; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+}
+
+.text-bg-tentang h1 {
+    font-weight: 700; 
+    font-size: 90px; 
+    color: white;
+}
+
+.text-bg-tentang p {
+    font-weight: 300; 
+    font-size: 25px; 
+    color: white;
+}
+
+
+.visi-misi {
+    margin-top: 30px;
+}
+
+.visi-misi .img-kepaladesa{
+    width: 100%; 
+    height: auto;
+}
+
+.kepala-desa p {
+    text-align: center;
+}
+
+.kepala-desa .nama{
+    font-weight: 700; 
+    font-size: 30px; 
+    color: black; 
+    margin-bottom: -4px;
+}
+
+.kepala-desa .jabatan {
+    font-weight: 400; 
+    font-size: 25px; 
+    color: black;
+}
+
+.visidanmisi {
+    font-weight: 700; 
+    font-size: 30px; 
+    color: black;
+}
+
+.caption .caption-visi, .caption-misi {
+    font-weight: 500; 
+    font-size: 17px; 
+    color: black;
+    margin-top: -15px;
+}
+
+
+.caption .caption-visi, .visidanmisi{
+    text-align: center;
+}
+
+.caption .caption-misi {
+    text-align: justify-content;
+}
+
+
+.deskripsi {
+    margin: 20px;
+    text-align: center;
+}
+
+.deskripsi .deskripsi-judul {
+    font-weight: 700; 
+    font-size: 30px; 
+    color: black;
+}
+
+.deskripsi .deskripsi-detail {
+    font-weight: 500; 
+    font-size: 17px; 
+    color: black; 
+    margin-top: -5px;
+}
+
+.footer {
+    background-color: #2CB1E9;
+    color: #fff; 
+    padding: 20px 0; 
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    height: 160px;
+    margin: 0 auto; 
+    padding: 0 40px; 
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-desa {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-right: 10px;
+}
+
+.footer-contact {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.footer-text1 {
+font-weight: 600; 
+font-size: 28px;
+margin-bottom: -8px;
+}
+
+.footer-text2 {
+font-weight: 400; 
+font-size: 16px;
+}
+
+.footer-contact1 {
+font-weight: 600; 
+font-size: 24px;
+}
+
+.inline-item {
+margin-top: -18px;
+}
+
+.inline {
+padding: 4px 0;
+}
+
+/* Ekstra Kecil (Mobile) */
+@media (max-width: 576px) {
+    .text-bg-tentang h1 {
+        font-weight: 700; 
+        font-size: 50px; 
+        color: white;
+    }
+    
+    .text-bg-tentang p {
+        font-weight: 300; 
+        font-size: 13px; 
+        color: white;
+    }
+
+    .caption .visidanmisi {
+        font-size: 20px;
+    }
+
+    .caption .caption-visi, .caption-misi {
+        font-size: 14px;
+    }
+
+    .kepala-desa {
+        margin-top: 6px;
+    }
+
+    .kepala-desa .nama {
+        font-size: 20px;
+    }
+
+    .kepala-desa .jabatan {
+        font-size: 18px;
+    }
+
+    .deskripsi .deskripsi-judul {
+        font-size: 20px;
+    }
+    
+    .deskripsi .deskripsi-detail {
+        font-size: 14px;
+    }
+
+    .visi-misi .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visi-misi .image {
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .visi-misi .caption {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+/* Kecil (Mobile) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .text-bg-tentang h1 {
+        font-weight: 700; 
+        font-size: 50px; 
+        color: white;
+    }
+    
+    .text-bg-tentang p {
+        font-weight: 300; 
+        font-size: 13px; 
+        color: white;
+    }
+
+    .caption .visidanmisi {
+        font-size: 20px;
+    }
+
+    .caption .caption-visi, .caption-misi {
+        font-size: 14px;
+    }
+
+    .kepala-desa {
+        margin-top: 6px;
+    }
+
+    .kepala-desa .nama {
+        font-size: 20px;
+    }
+
+    .kepala-desa .jabatan {
+        font-size: 18px;
+    }
+
+    .deskripsi .deskripsi-judul {
+        font-size: 20px;
+    }
+    
+    .deskripsi .deskripsi-detail {
+        font-size: 14px;
+    }
+
+    .visi-misi .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visi-misi .image {
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .visi-misi .caption {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Sedang (Tablet) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .text-bg-tentang h1 {
+        font-weight: 700; 
+        font-size: 60px; 
+        color: white;
+    }
+    
+    .text-bg-tentang p {
+        font-weight: 300; 
+        font-size: 16px; 
+        color: white;
+    }
+
+    .caption .visidanmisi {
+        font-size: 20px;
+    }
+
+    .caption .caption-visi, .caption-misi {
+        font-size: 14px;
+    }
+
+    .kepala-desa {
+        margin-top: 6px;
+    }
+
+    .kepala-desa .nama {
+        font-size: 20px;
+    }
+
+    .kepala-desa .jabatan {
+        font-size: 18px;
+    }
+
+    .deskripsi .deskripsi-judul {
+        font-size: 20px;
+    }
+    
+    .deskripsi .deskripsi-detail {
+        font-size: 14px;
+    }
+}
+
+/* Besar (Desktop Kecil) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
